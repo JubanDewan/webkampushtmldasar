@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar</title>
+</head>
+<body>
+    <table border="0" width="100%">
+        <tr>
+            <td>
+            <img src="../image.png" height="130" alt="Logo">
+            </td>
+            <td width="50%"></td>
+            <center>
+            <td align="center">
+                <h2>Politeknik Negeri Batam</h2>
+            <h3>Prodi Teknik Informatika</h3>
+            <h3>Jl. Ahmad Yani, Batam Kota, 
+            Kota Batam, Kepulauan Riau, Indonesia</h3>
+            </td>
+            </center>
+        </tr>
+    </table>
+
+    <hr size="5" color="blue">
+
+    <table border="0" width="100%">
+        <tr>
+            <td width="50%"></td>
+            <td align="center">
+                <font color="#ca8bf7"><h2>Form Biodata</h2></font>
+            </td>
+        </tr>
+<form>
+    <table align="center" border="0" width="50%">
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td><input type="text" name="nama">
+            </td>
+        </tr>
+        <tr>
+            <td>Tanggal Lahir</td>
+            <td>:</td>
+            <td>
+                <input type="text" name="tanggal lahir" size="3">/
+                <input type="text" name="bulan lahir" size="3">/
+                <input type="text" name="tahun lahir" size="5">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Alamat</td>
+            <td>
+                <textarea name="alamat" cols="30"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Kota</td>
+            <td>:</td>
+            <td>
+                <input type="text" name="kota">
+            </td>
+        </tr>
+        <tr>
+            <td>Pekerjaan</td>
+            <td>:</td>
+            <td>
+                <select name="pekerjaan">
+                    <option value="pelajar">Petani</option>
+                    <option value="belum">Belum Bekerja</option>
+                    <option value="pelajar">Pelajar</option>
+                    <option value="mahasiswa">Mahasiswa</option>
+                    <option value="karyawan">Karyawan</option>
+                    <option value="wiraswasta">Wiraswasta</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td valign="top">Hobby</td>
+            <td valign="top">:</td>
+            <td>
+                <input type="checkbox" name="hobby" value="membaca">Reading<br>
+                <input type="checkbox" name="hobby" value="olahraga">Sports<br>
+                <input type="checkbox" name="hobby" value="menyanyi">Singing<br>
+                <input type="checkbox" name="hobby" value="traveling">Traveling<br>
+                <input type="checkbox" name="hobby" value="other">Other<br>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="3">
+                <input type="submit" name="btnKirim" id="kirim" value="Kirim">
+                <input type="reset" name="btnBatal" id="batal" value="Cancel">
+            </td>
+        </tr>
+    </table>
+</form>
+<a href="index.html">Kembali ke beranda</a>
+</body>
+</html>
